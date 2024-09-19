@@ -1,0 +1,20 @@
+.social-icons .fa-linkedin {
+    background-color: white;
+    color: black;
+  }
+
+  .smaller-font {
+    font-size: 0.8em;  /* Adjust this value as needed */
+  }
+  
+  .smaller-font h2 {
+    font-size: 1.3em;  /* Adjust heading sizes as needed */
+  }
+  
+  .smaller-font h3 {
+    font-size: 1.1em;
+  }
+  
+  .smaller-font ul, .smaller-font ol {
+    font-size: 0.9em;  /* Adjust list font size if needed */
+  }
