@@ -1,19 +1,21 @@
 ---
-layout: page
 title: "Curriculum Vitae"
+layout: single
 permalink: /CV/
+author_profile: true
+classes: wide smaller-font
 ---
-
-# My Curriculum Vitae
 
 ## Preview
 
-<object data="{{ site.url }}/assets/CV.pdf" type="application/pdf" width="100%" height="600px">
-    <p>It appears you don't have a PDF plugin for this browser. You can <a href="{{ site.url }}/assets/CV.pdf">click here to download the PDF file.</a></p>
-</object>
+<div style="width: 100%; height: 800px; overflow: hidden;">
+    <iframe src="{{ '/assets/AliRabiee_CV.pdf' | relative_url }}" width="100%" height="100%" frameborder="0" style="overflow: auto;">
+        <p>Your browser does not support iframes. You can <a href="{{ '/assets/AliRabiee_CV.pdf' | relative_url }}">download the PDF</a> instead.</p>
+    </iframe>
+</div>
 
 ## Download
 
 If the preview is not working, you can download the CV directly:
 
-- [Download My CV (PDF)]({{ site.url }}/assets/CV.pdf)
+- [Download My CV (PDF)]({{ site.url }}/assets/AliRabiee_CV.pdf)
