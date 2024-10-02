@@ -64,3 +64,4 @@ his project implements a Deep Q-Network (DQN) to solve the CartPole-v1 environme
 <img src="{{ '/assets/videos/cartpole.gif' | relative_url }}" alt="Project 1 GIF" width="700" height="auto">
 
 [GitHub Link](https://github.com/ali-rabiee/CartPole-DQN)
+
