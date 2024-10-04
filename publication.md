@@ -8,7 +8,7 @@ classes: smaller-font
 
 ## Journal Articles
 
-1. Rabiee A, Ghafoori S, Beyer R, Abiri R. mplification of limited user inputs for high-dimensional manipulation tasks using human guided deep RL (In process).
+1. Rabiee A, Ghafoori S, Beyer R, Abiri R. amplification of limited user inputs for high-dimensional manipulation tasks using human guided deep RL (In process).
 
 2. Rabiee A, Ghafoori S, Cetera A, Besio W, Abiri R. A Comparative Study of Conventional and Tripolar EEG for High-Performance Reach-to-Grasp BCI Systems. IEEE Transactions on Biomedical Engineering (under review). 
 
