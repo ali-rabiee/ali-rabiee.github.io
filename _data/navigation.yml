@@ -9,11 +9,11 @@ main:
   - title: "Experience"
     url: /experience/
 
+  - title: "Projects"
+    url: /projects/
+    
   - title: "Honors & Awards"
     url: /honors/
-
-  - title: "Research Projects"
-    url: /projects/
 
   - title: "CV"
     url: /CV/
