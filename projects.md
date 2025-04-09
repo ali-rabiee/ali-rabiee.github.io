@@ -42,6 +42,21 @@ guide actions in real-time, seamlessly blending user input with autonomous assis
 
 ![GIF]({{ '/assets/videos/amplification_demo.gif' | relative_url }})
 
+### Text-to-Speech App 
+This is a Streamlit-based web application that converts text to speech. It supports text extraction from uploaded Word and PDF files, manual text input, and text summarization using an LLM model.
+[GitHub Link](https://github.com/ali-rabiee/text2speech)
+<video width="600" height="400" controls>
+    <source src="{{ '/assets/videos/text2speech.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag. You can <a href="{{ '/assets/videos/text2speech.mp4' | relative_url }}">download the video</a> instead.
+</video>
+
+### LLM-based Autonomous Sorter
+A simulation of an autonomous robot that can sort objects based on natural language commands. The robot uses a zero-shot classification model to interpret commands and can sort objects based on their shape or color.
+[GitHub Link](https://github.com/ali-rabiee/LLM-AutonomousSorter)
+<video width="600" height="400" controls>
+    <source src="{{ '/assets/videos/LLMsorter.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag. You can <a href="{{ '/assets/videos/LLMsorter.mp4' | relative_url }}">download the video</a> instead.
+</video>
 
 ## Dual-Mode Robotic Arm Control with GUI and IMU Integration
 This project integrates a graphical user interface (GUI) with an inertial measurement unit (IMU) sensor to provide

@@ -7,7 +7,7 @@ classes: wide smaller-font
 {% capture custom_content %}
 ## About Me
 <div style="text-align: justify; font-size: 16px;">
-I am a <strong>Ph.D. candidate</strong> and <strong>university fellow</strong> in Electrical Engineering at the University of Rhode Island, with over <strong>4 years</strong> of combined experience in academic research and professional work as a <strong>Machine Learning Engineer</strong>. I have experience in reinforcement learning, robotics, computer vision, signal processing, and natural language processing (NLP). My current research as a Ph.D. candidate focuses on autonomous and shared autonomy systems, human-in-the-loop intelligent agents, and electroencephalography (EEG) analysis and interpretation. I design multimodal AI frameworks that integrate biosignals with computer vision and reinforcement learning to enhance shared autonomy systems specifically for individuals with disabilities.
+Ph.D. candidate and university fellow with over <strong>5 years</strong> of combined experience in machine learning research and industry experience as a <strong>Machine Learning Engineer</strong>. I have experience in <strong>Robotics, Reinforcement Learning, Computer Vision, Signal Processing, and GenAI</strong>. My current research focuses on autonomous and shared autonomy systems, human-in-the-loop intelligent agents, and electroencephalography (EEG) analysis and interpretation. Proficient in <strong>Python, C/C++, MATLAB, SQL, TensorFlow, PyTorch</strong>, and various deep learning frameworks. Proven research impact through publications in top-tier conferences and journals.
 </div>
 
 
@@ -29,11 +29,13 @@ I am a <strong>Ph.D. candidate</strong> and <strong>university fellow</strong> i
 4. **Signal Processing**
    - Time series analysis (ARIMA, LSTM, GRU- RCNN), EEG signal processing, Spectral analysis, Time-frequency analysis (STFT, wavelets, Hilbert-Huang transform), Signal filtering and enhancement (Kalman filters, FIR/IIR), Feature extraction methods (FFT, wavelets), Denoising, Blind source separation (ICA, NMF)
 
-5. **Natural Language Processing (NLP)**
-   - Text preprocessing and feature extraction (TF-IDF, word embeddings), Transformer architectures (BERT, RoBERTa, GPT), Attention mechanisms, Sentiment analysis, language modeling, and transformer architectures.
+5. **Generative AI**
+   - GAN architectures (DCGAN, WGAN, StyleGAN, VAE), Diffusion Models (DDPM, Latent Diffusion),
+Transformers for generative tasks (GPT, Vision Transformers for image synthesis), Autoregressive models (PixelCNN,
+PixelSNAIL), and Neural Radiance Fields (NeRF).
 
-6. **Generative AI**
-   - GAN architectures (DCGAN, WGAN, StyleGAN, VAE), Diffusion models
+6. **Natural Language Processing (NLP)**
+   - Text preprocessing and feature extraction (TF-IDF, word embeddings), Transformer architectures (BERT, RoBERTa, GPT), Attention mechanisms, Sentiment analysis, language modeling, and transformer architectures.
 
 ---
 ## Technical Skills
@@ -50,7 +52,7 @@ I am a <strong>Ph.D. candidate</strong> and <strong>university fellow</strong> i
 {{ custom_content | markdownify }}
  ---
 
-## Sample Projects 
+## Selected Projects 
 
 ### Kinova RL: a ROS package for Shared Control Deep Reinforcement Learning
 This ROS package implements a shared control Deep Reinforcement Learning (DRL) system for robotic manipulation
@@ -63,15 +65,31 @@ sensor, and a trained DQN (Deep Q-Network) agent to control the robot’s action
 
 ### Adaptive Robotic Control for Users with Severe Impairments using DRL
 A system that optimizes mapping from low-DoF inputs to high-dimensional robotic actions, enabling intuitive control for users with severe impairments. It uses adaptive goal prediction and reinforcement learning to guide actions in real-time, seamlessly blending user input with autonomous assistance. [GitHub Link](https://github.com/ali-rabiee/amplification_DRL)
+
 ![GIF]({{ '/assets/videos/amplification_demo.gif' | relative_url }}) 
-
-
 
 ### Dual-Mode Robotic Arm Control with GUI and IMU Integration
 This project integrates a graphical user interface (GUI) with an inertial measurement unit (IMU) sensor to provide
 dual-mode control of a robotic arm. Users can choose to control the robotic arm by clicking on cursor buttons in the
 GUI or by using the IMU sensor to move the cursor for button selection. [GitHub Link](https://github.com/ali-rabiee/ClickMove-Robotics)
+
 <img src="{{ '/assets/videos/ClickMove_demo.gif' | relative_url }}" alt="Project 1 GIF" width="600" height="auto">
+
+### Text-to-Speech App 
+This is a Streamlit-based web application that converts text to speech. It supports text extraction from uploaded Word and PDF files, manual text input, and text summarization using an LLM model.
+[GitHub Link](https://github.com/ali-rabiee/text2speech)
+<video width="600" height="400" controls>
+    <source src="{{ '/assets/videos/text2speech.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag. You can <a href="{{ '/assets/videos/text2speech.mp4' | relative_url }}">download the video</a> instead.
+</video>
+
+### LLM-based Autonomous Sorter
+A simulation of an autonomous robot that can sort objects based on natural language commands. The robot uses a zero-shot classification model to interpret commands and can sort objects based on their shape or color.
+[GitHub Link](https://github.com/ali-rabiee/LLM-AutonomousSorter)
+<video width="600" height="400" controls>
+    <source src="{{ '/assets/videos/LLMsorter.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag. You can <a href="{{ '/assets/videos/LLMsorter.mp4' | relative_url }}">download the video</a> instead.
+</video>
 
 ### Panorama Creation via Harris Corner Detection and Image Stitching
 This project involves the creation of panoramic images by detecting key interest points in multiple images using the
