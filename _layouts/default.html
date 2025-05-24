@@ -7,6 +7,8 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
@@ -30,6 +32,33 @@
         {% include_cached footer.html %}
       </footer>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.mySwiper', {
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          slidesPerView: 1,
+          spaceBetween: 10,
+          // Responsive breakpoints (optional)
+          breakpoints: {
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 }
+          }
+        });
+      });
+    </script>
 
     {% include scripts.html %}
   </body>

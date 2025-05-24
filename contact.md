@@ -5,14 +5,9 @@ permalink: /contact/
 author_profile: true
 classes: smaller-font
 ---
-
-Thank you for your interest in contacting me. I welcome inquiries related to my research, potential collaborations, or matters involving academia and industry.
-
-## Email
-
 The best way to reach me is via email:
 
-**Email:** [alirabiee1997@gmail.com](mailto:alirabiee1997@gmail.com)
+**Email:** [ali.rabiee@uri.edu](mailto:ali.rabiee@uri.edu)
 
 **Office Address:**  
 Department of Electrical, Computer & Biomedical Engineering <br>
